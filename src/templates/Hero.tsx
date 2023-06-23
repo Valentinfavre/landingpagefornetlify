@@ -26,8 +26,6 @@ const Hero = () => (
           <>
             {'LES 10 ETAPES CLES POUR GERER \n'}
             <span className="text-primary-500">UNE CRISE CYBER</span>
-            {'\n'}
-            <span className="text-primary-500">UNE CRISE CYBER</span>
           </>
         }
         description="Apprenez rapidement à faire face aux pires situations"

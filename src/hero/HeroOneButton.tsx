@@ -1,9 +1,11 @@
 import { ReactNode } from 'react';
 
+
 type IHeroOneButtonProps = {
-  title: ReactNode;
-  description: string;
   button: ReactNode;
+  title: string;
+  description: string;
+  reverse?: boolean;
 };
 
 const HeroOneButton = (props: IHeroOneButtonProps) => (
@@ -12,7 +14,7 @@ const HeroOneButton = (props: IHeroOneButtonProps) => (
       {props.title}
     </h1>
     <div className="text-2xl mt-4 mb-16">{props.description}</div>
-
+    <img src={`./public/assets/LB_landing_page.jpg`} alt={props.imageAlt} />
     {props.button}
   </header>
 );

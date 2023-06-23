@@ -7,6 +7,13 @@ const VerticalFeatures = () => (
     description="Ne soyer plus mal organiser pour vos Crises Cyber et prenez en main votre département et collaborateurs pour vous remettre sur les rails le plus vite possible"
   >
     <VerticalFeatureRow
+      title="Un livre Blanc pour nos Amis du SI"
+      description="Permet de vous renseigner sur la mise en place d'une Cellule de Crise et de gèrer cette dernière"
+      image="/assets/images/LB_landing_page.jpg"
+      imageAlt="First feature alt text"
+      reverse
+    />
+    <VerticalFeatureRow
       title="Avant c'est trop chère, Après c'est trop tard ..."
       description="Formez vous avec ces 10 points retraçant la Gestion d'une Cyber-Crise a ses débuts jusqu'a sa clôture en réduisant au maximum l'arret de votre production."
       image="/assets/images/feature.svg"
